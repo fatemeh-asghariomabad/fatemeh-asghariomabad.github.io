@@ -86,16 +86,16 @@ export const personalProjects: Project[] = [
     name: 'Tradie Toolkit',
     period: '2026',
     description:
-      'Small, useful tools for trades businesses. The first is a tile calculator for a Christchurch tiling business: homeowners add their floors and walls, pick a tile and layout, and see how many tiles and boxes to buy. Nothing they type is stored.',
+      'Small, useful tools for trades businesses. The first is a tile calculator for a Christchurch tiling business: homeowners add their floors and walls, pick a tile and layout, and see how many tiles and boxes to buy. This one is a real app, so I built it with an Angular front end and a Django REST API. The tile maths lives in its own layer on the server, and the business owner can change cut allowances, tile sizes and suppliers in the Django admin without a new release. Nothing a visitor types is stored, and a test proves it. Over 100 automated tests and a CI pipeline check every change.',
     tech: ['Angular', 'TypeScript', 'Django', 'Python', 'REST API'],
     link: 'https://github.com/fatemeh-asghariomabad/tradie-toolkit',
     note: "The code is private while I give it a final review. It'll be public soon.",
   },
   {
-    name: 'Pixel Tiling website',
+    name: 'Tiling business website',
     period: '2026',
     description:
-      'A website for Pixel Tiling, a tiling and waterproofing business in Christchurch. I kept it to plain HTML, CSS and JavaScript with no outside scripts, so it loads fast and there is very little that can go wrong. It has a filterable gallery of recent jobs, a quote form with spam checks, and a planning guide that helps homeowners understand tiling costs before they book. I host it on AWS myself. The files sit in a private S3 bucket that only CloudFront can read, with HTTPS, a strict Content Security Policy and other security headers, and a budget alert so a mistake can never turn into a surprise bill.',
+      'A website for a tiling and waterproofing business in Christchurch. I first built it in Angular, then rebuilt it in plain HTML, CSS and JavaScript on purpose. For a small business site that is the more professional choice: it loads fast on phones, it is easy to keep secure, and there is no framework to upgrade every few months, so the owner isn\'t paying for work the site doesn\'t need. It has a filterable gallery of recent jobs, a quote form with spam checks, and a planning guide that helps homeowners understand tiling costs before they book. I host it on AWS myself. The files sit in a private S3 bucket that only CloudFront can read, with HTTPS, a strict Content Security Policy and other security headers, and a budget alert so a mistake can never turn into a surprise bill.',
     tech: ['HTML', 'CSS', 'JavaScript', 'AWS S3', 'CloudFront', 'DNS and HTTPS', 'Web security', 'SEO'],
     link: 'https://www.pixeltiling.co.nz',
   },
