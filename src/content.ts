@@ -97,8 +97,7 @@ export const personalProjects: Project[] = [
     description:
       'A website for Pixel Tiling, a tiling and waterproofing business in Christchurch. I kept it to plain HTML, CSS and JavaScript with no outside scripts, so it loads fast and there is very little that can go wrong. It has a filterable gallery of recent jobs, a quote form with spam checks, and a planning guide that helps homeowners understand tiling costs before they book. I host it on AWS myself. The files sit in a private S3 bucket that only CloudFront can read, with HTTPS, a strict Content Security Policy and other security headers, and a budget alert so a mistake can never turn into a surprise bill.',
     tech: ['HTML', 'CSS', 'JavaScript', 'AWS S3', 'CloudFront', 'DNS and HTTPS', 'Web security', 'SEO'],
-    link: 'https://pixeltiling.co.nz',
-    note: "I'm moving it to AWS now, so the link will show the new version very soon.",
+    link: 'https://www.pixeltiling.co.nz',
   },
 ]
 
