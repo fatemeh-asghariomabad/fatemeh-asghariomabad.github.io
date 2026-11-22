@@ -171,8 +171,11 @@ img {
 }
 
 .btn-secondary {
+  background: transparent;
   border: 1px solid var(--border);
   color: var(--text);
+  font-family: inherit;
+  cursor: pointer;
 }
 
 .btn-secondary:hover {
