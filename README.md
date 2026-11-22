@@ -1,4 +1,4 @@
-# fatemehAOmabad.github.io
+# fatemeh-asghariomabad.github.io
 
 My personal portfolio website: a single-page React + TypeScript site built with Vite.
 
@@ -38,5 +38,5 @@ Pushing to `main` triggers [`.github/workflows/deploy.yml`](.github/workflows/de
 which builds the site and deploys it to GitHub Pages. In the repo settings,
 set **Settings → Pages → Build and deployment → Source** to **GitHub Actions**
 (one-time setup) and the site will publish to
-`https://fatemeh-asghariomabad.github.io/fatemehAOmabad.github.io/`
+`https://fatemeh-asghariomabad.github.io/`
 on every push.
