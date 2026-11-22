@@ -38,5 +38,5 @@ Pushing to `main` triggers [`.github/workflows/deploy.yml`](.github/workflows/de
 which builds the site and deploys it to GitHub Pages. In the repo settings,
 set **Settings → Pages → Build and deployment → Source** to **GitHub Actions**
 (one-time setup) and the site will publish to
-`https://asgharif.github.io/fatemehAOmabad.github.io/`
+`https://fatemeh-asghariomabad.github.io/fatemehAOmabad.github.io/`
 on every push.

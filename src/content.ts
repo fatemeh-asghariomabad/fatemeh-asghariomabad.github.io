@@ -1,11 +1,11 @@
 export const profile = {
-  name: 'Fatemeh A Omabad',
+  name: 'Fatemeh Asghariomabad',
   title: 'Full-Stack Software Engineer',
   tagline: 'Full-stack engineer building with React, Angular, Python & Django, and designing microservices systems.',
   email: 'fatemehAOmabad@gmail.com',
   photo: new URL('./assets/profile.png', import.meta.url).href,
   links: {
-    github: 'https://github.com/Asgharif',
+    github: 'https://github.com/fatemeh-asghariomabad',
     linkedin: undefined as string | undefined,
   },
 }
@@ -32,7 +32,8 @@ export const skillGroups: SkillGroup[] = [
   { label: 'Frontend', skills: ['React', 'Angular', 'TypeScript', 'JavaScript'] },
   { label: 'Backend', skills: ['Python', 'Django', 'C++', 'REST APIs'] },
   { label: 'Data', skills: ['PostgreSQL', 'MySQL', 'DBeaver'] },
-  { label: 'Cloud & DevOps', skills: ['Docker', 'AWS', 'CI/CD'] },
+  { label: 'Cloud & DevOps', skills: ['Docker', 'AWS (S3, CloudFront)', 'DNS and HTTPS', 'CI/CD'] },
+  { label: 'Security', skills: ['Content Security Policy', 'Security headers', 'Spam and bot protection'] },
   { label: 'Version Control', skills: ['Git', 'GitHub', 'GitLab', 'Bitbucket'] },
   { label: 'Testing', skills: ['Unit Testing'] },
   { label: 'Architecture', skills: ['Microservices', 'System Design'] },
@@ -87,16 +88,17 @@ export const personalProjects: Project[] = [
     description:
       'Small, useful tools for trades businesses. The first is a tile calculator for a Christchurch tiling business: homeowners add their floors and walls, pick a tile and layout, and see how many tiles and boxes to buy. Nothing they type is stored.',
     tech: ['Angular', 'TypeScript', 'Django', 'Python', 'REST API'],
-    link: 'https://github.com/Asgharif/tradie-toolkit',
+    link: 'https://github.com/fatemeh-asghariomabad/tradie-toolkit',
     note: "The code is private while I give it a final review. It'll be public soon.",
   },
   {
     name: 'Pixel Tiling website',
     period: '2026',
     description:
-      'A website for Pixel Tiling, a tiling and waterproofing business in Christchurch. Built with Angular and server-side rendering, so pages load quickly and Google can read them. It has a filterable gallery of recent jobs, a quote form, and a planning guide that helps homeowners understand tiling costs before they book.',
-    tech: ['Angular', 'TypeScript', 'SCSS', 'Server-side rendering', 'SEO'],
-    note: 'Going live soon at pixeltiling.co.nz.',
+      'A website for Pixel Tiling, a tiling and waterproofing business in Christchurch. I kept it to plain HTML, CSS and JavaScript with no outside scripts, so it loads fast and there is very little that can go wrong. It has a filterable gallery of recent jobs, a quote form with spam checks, and a planning guide that helps homeowners understand tiling costs before they book. I host it on AWS myself. The files sit in a private S3 bucket that only CloudFront can read, with HTTPS, a strict Content Security Policy and other security headers, and a budget alert so a mistake can never turn into a surprise bill.',
+    tech: ['HTML', 'CSS', 'JavaScript', 'AWS S3', 'CloudFront', 'DNS and HTTPS', 'Web security', 'SEO'],
+    link: 'https://pixeltiling.co.nz',
+    note: "I'm moving it to AWS now, so the link will show the new version very soon.",
   },
 ]
 
