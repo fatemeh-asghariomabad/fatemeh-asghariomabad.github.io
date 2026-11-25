@@ -86,8 +86,8 @@ export const personalProjects: Project[] = [
     name: 'Tradie Toolkit',
     period: '2026',
     description:
-      'Small, useful tools for trades businesses. The first is a tile calculator for a Christchurch tiling business: homeowners add their floors and walls, pick a tile and layout, and see how many tiles and boxes to buy. This one is a real app, so I built it with an Angular front end and a Django REST API. The tile maths lives in its own layer on the server, and the business owner can change cut allowances, tile sizes and suppliers in the Django admin without a new release. Nothing a visitor types is stored, and a test proves it. Over 100 automated tests and a CI pipeline check every change.',
-    tech: ['Angular', 'TypeScript', 'Django', 'Python', 'REST API'],
+      'Small, useful tools for trades businesses. The first is a tile calculator for a Christchurch tiling business: homeowners add their floors and walls, pick a tile and layout, and see how many tiles and boxes to buy. This one is a real app, so I built it with an Angular front end and a Django REST API. The tile maths lives in its own layer on the server, and the business owner can change cut allowances, tile sizes and suppliers in the Django admin without a new release. Nothing a visitor types is stored, and a test proves it. Over 100 automated tests and a CI pipeline check every change. Next I am putting it live on AWS and connecting it to the tiling business website. The Angular app will sit on S3 and CloudFront like the website, and the Django API will run on AWS Lambda, so there is no server to look after. A homeowner will open the calculator from the website, and their estimate will go straight into the quote form, ready to send.',
+    tech: ['Angular', 'TypeScript', 'Django', 'Python', 'REST API', 'AWS Lambda (planned)'],
     link: 'https://github.com/fatemeh-asghariomabad/tradie-toolkit',
     note: "The code is private while I give it a final review. It'll be public soon.",
   },
